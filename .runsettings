@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="XPlat code coverage">
+        <Configuration>
+          <Format>cobertura</Format>
+          <Exclude>
+            <!-- Exclude test assemblies -->
+            [*.Tests]*,
+            <!-- Exclude generated code -->
+            [*.Generated]*,
+            <!-- Exclude specific namespaces if needed -->
+            [MyCWebApp]MyCWebApp.Program
+          </Exclude>
+          <Include>
+            <!-- Include only your main project -->
+            [MyCWebApp]*
+          </Include>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>
+
