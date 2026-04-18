@@ -27,11 +27,11 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal --collect:"XPlat Code Coverage"
     - name: Debug - List TestResults
-      run: find TestResults -type f -name "*.xml" 2>/dev/null || echo "No XML files found"
+      run: find . -type f -name "*.cobertura.xml" 2>/dev/null || echo "No coverage files found"
     - name: Generate Coverage Report
       run: |
         dotnet tool install --global dotnet-reportgenerator-globaltool
-        reportgenerator -reports:"TestResults/**/*.cobertura.xml" -targetdir:"coveragereport" -reporttypes:Html
+        reportgenerator -reports:"**/TestResults/**/*.cobertura.xml" -targetdir:"coveragereport" -reporttypes:Html
     - name: Upload Coverage Report
       uses: actions/upload-artifact@v4
       with:
