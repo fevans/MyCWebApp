@@ -31,3 +31,4 @@
 /Users/effevans/dev3/MyCWebApp/MyCWebApp/obj/Debug/net10.0/MyCWebApp.pdb
 /Users/effevans/dev3/MyCWebApp/MyCWebApp/obj/Debug/net10.0/MyCWebApp.genruntimeconfig.cache
 /Users/effevans/dev3/MyCWebApp/MyCWebApp/obj/Debug/net10.0/ref/MyCWebApp.dll
+/Users/effevans/dev3/MyCWebApp/MyCWebApp/obj/Debug/net10.0/MyCWebApp.sourcelink.json

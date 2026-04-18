@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyCWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33fd083f186f5d95a25ac82e1c436764415980d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyCWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyCWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
